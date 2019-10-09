@@ -13,11 +13,9 @@ import './styles/styles.scss'
 const store = configureStore();
 
 // Actions 
-store.dispatch(addExpense({ description: 'Water bill' }));
-store.dispatch(addExpense({ description: 'Gas bill' }));
-store.dispatch(setTextFilter('water'))
-
-console.log(store.getState())
+store.dispatch(addExpense({ description: 'Water bill', amount: 4500 }));
+store.dispatch(addExpense({ description: 'Gas bill', createdAt: 1000 }));
+store.dispatch(addExpense({ description: 'Rent bill', amount: 109500 }));
 
 // Subscribe
 const state = store.getState(); 
