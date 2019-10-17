@@ -6,3 +6,7 @@ playground/
 webpack.config.js
 yarn-error.log
 yarn.lock 
+public/bundle.js
+public/bundle.js.map
+public/styles.css
+public/styles.css.map
