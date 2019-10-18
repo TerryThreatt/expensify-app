@@ -4,9 +4,6 @@
   "main": "index.js",
   "author": "Terry Threatt",
   "license": "MIT",
-  "engines": {
-    "node": "12.4.0"
-  },
   "scripts": {
     "serve": "live-server public/",
     "build:dev": "webpack",
