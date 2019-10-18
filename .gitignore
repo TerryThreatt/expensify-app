@@ -3,9 +3,7 @@ node_modules/
 playground/
 .DS_STORE 
 .babelrc
-webpack.config.js
 yarn-error.log
-yarn.lock 
 public/bundle.js
 public/bundle.js.map
 public/styles.css
